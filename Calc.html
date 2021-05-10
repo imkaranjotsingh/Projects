@@ -1,0 +1,54 @@
+<div class = title >Calculator</div> 
+<form  name=f>
+<table border="1"> 
+	 <tr> 
+        	<td colspan="3"><input type="text"  name=t1 id="result"/></td> 
+        	<td><input type="button" value="CLR" onclick="f.t1.value='' "/> </td> 
+         </tr> 
+         <tr> 
+               	<td><input type="button" value="1" onclick="f.t1.value+='1'"/> </td> 
+         	<td><input type="button" value="2" onclick="f.t1.value+='2'"/> </td> 
+         	<td><input type="button" value="3" onclick="f.t1.value+='3'"/> </td> 
+         	<td><input type="button" value="/" onclick="f.t1.value+='/'"/> </td> 
+         </tr> 
+         <tr> 
+         	<td><input type="button" value="4" onclick="f.t1.value+='4'"/> </td> 
+         	<td><input type="button" value="5" onclick="f.t1.value+='5'"/> </td> 
+         	<td><input type="button" value="6" onclick="f.t1.value+='6'"/> </td> 
+         	<td><input type="button" value="-" onclick="f.t1.value+='-'"/> </td> 
+         </tr> 
+         <tr> 
+         	<td><input type="button" value="7" onclick="f.t1.value+='7'"/> </td> 
+         	<td><input type="button" value="8" onclick="f.t1.value+='8'"/> </td> 
+         	<td><input type="button" value="9" onclick="f.t1.value+='9'"/> </td> 
+         	<td><input type="button" value="+" onclick="f.t1.value+='+'"/> </td> 
+         </tr> 
+         <tr> 
+         	<td><input type="button" value="." onclick="f.t1.value+='.'"/> </td> 
+         	<td><input type="button" value="0" onclick="f.t1.value+='0'"/> </td> 
+         	<td><input type="button" value="=" onclick="f.t1.value=eval(f.t1.value)"/> </td> 
+         	<td><input type="button" value="*" onclick="f.t1.value+='*'"/> </td> 
+         </tr>
+</table>  
+<script>  
+         
+</script> 
+<style> 
+	.title{ 
+        	margin-bottom: 10px; 
+         	text-align:center; 
+         	width: 210px;  
+         	border: solid black 2px; 
+         } 
+	input[type="button"]{
+         	color: black; 	
+         	width:100% 
+       	} 
+  	input[type="text"]{ 
+         	background-color:white; 
+         	width:100% 
+        } 
+</style>  
+  
+
+
